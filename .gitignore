@@ -123,3 +123,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+temp_analysis_bonus_2_starter.ipynb
