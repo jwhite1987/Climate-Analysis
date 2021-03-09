@@ -12,7 +12,7 @@ from sqlalchemy import create_engine, func
 #################################################
 app = Flask(__name__)
 
-engine = create_engine("sqlite:///Instructions/hawaii.sqlite")
+engine = create_engine("sqlite:///hawaii.sqlite")
 
 # reflect an existing database into a new model
 Base = automap_base()
